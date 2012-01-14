@@ -1,6 +1,4 @@
-Ti.include("../include/inheritance.js");
-
-var View = Class.extend({
+Ti.App.View = Class.extend({
     init: function(win, controller)
     {
         this.win = win;
