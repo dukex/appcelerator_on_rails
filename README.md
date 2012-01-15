@@ -1,21 +1,21 @@
 THIS FORK IS DIFERENT FROM [ORIGIN](https://github.com/smontgomerie/Appcelerator-on-Rails.git)
 
 # Appcelerator On Rails #
-appcelerator-on-rails is an attempt to bring some of the paradigms of Ruby on Rails to the Appcelerator platform.
+appcelerator_on_rails is an attempt to bring some of the paradigms of Ruby on Rails to the Appcelerator platform.
 It includes a Model-View-Controller paradigm and generators to facilitate rapid application development.
 
 ## Getting Started ##
 
-Generate a new Appcelerator project using the Titanium SDK. After you need added the appcelerator-on-rails in Resources/lib. See an example:
+Generate a new Appcelerator project using the Titanium SDK. After you need added the appcelerator_on_rails in Resources/lib.
 
 	# on project root path
-	git submodule add https://emersonvinicius@github.com/emersonvinicius/appcelerator-on-rails.git Resources/lib/appcelerator-on-rails
+	git submodule add -f git://github.com/emersonvinicius/appcelerator_on_rails.git Resources/lib/appcelerator_on_rails
 
 Before you should add the boot project, on app.js
 
 	Ti.include("lib/appcelerator_on_rails/boot.js");
 
-Now you can use appcelerator-on-rails helpers
+Now you can use appcelerator_on_rails helpers
 
 
 ## Generators ##
@@ -38,4 +38,5 @@ achieved MVC separation of concerns.
 
 ## Credits ##
 Appcelerator-on-Rails the origin project https://github.com/smontgomerie/Appcelerator-on-Rails
+
 TiStore uses the origin project http://github.com/jcfischer/TiStore
